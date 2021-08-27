@@ -1,82 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-button {
-    outline: none;
-}
-
-.light .main {
-    font-family: 'Poppins', sans-serif;
-    padding: 10%;
-    color: black;
-    background: white;
-}
-.light .left {
-    text-align: left;
-}
-.light .purple {
-    color: purple;
-}
-.light .blue {
-    color: blue;
-    text-decoration: none;
-}
-.light .red {
-    color: red;
-    text-decoration: none;
-}
-.light .purplehr {
-    background: purple;
-    border: 1px solid purple;
-}
-.light .redhr {
-    background: red;
-    border: 1px solid red;
-}
-.dark .toggle {
-    background: none;
-    border: none;
-    color: black;
-}
-.dark .links  {
-    text-decoration: none;
-    color: black;
-}
-
-
-.dark .main {
-    font-family: 'Poppins', sans-serif;
-    background: #313131;
-    padding: 10%;
-    color: white;
-}
-.dark .left {
-    text-align: left;
-}
-.dark .purple {
+.all .title {
     color: #bb86fc;
+    font-weight: bold;
 }
-.dark .blue {
-    color: #03dac5;
-    text-decoration: none;
+
+@media (prefers-color-scheme: light) {
+    .all {
+        background: #f1f1f1;
+        color: black;
+        font-size: 90%;
+    }
+    .all .main {
+        font-family: 'Poppins', sans-serif;
+        padding: 10%;
+    }
+    .all .link {
+        text-decoration: none;
+        color: navy;
+    }
+    .all .links a {
+        text-decoration: none;
+        color: navy;
+    }
 }
-.dark .red {
-    color: yellow;
-    text-decoration: yellow;
-}
-.dark .purplehr {
-    background: yellow;
-    border: 1px solid yellow;
-}
-.dark .redhr {
-    background: yellow;
-    border: 1px solid yellow;
-}
-.dark .toggle {
-    background: none;
-    border: none;
-    color: yellow;
-}
-.dark .links  {
-    text-decoration: none;
-    color: white;
+
+@media (prefers-color-scheme: dark) {
+    .all {
+        background: #313131;
+        color: white;
+        font-size: 90%;
+    }
+    .all .main {
+        font-family: 'Poppins', sans-serif;
+        padding: 10%;
+    }
+    .all .link {
+        text-decoration: none;
+        color: aqua;
+    }
+    .all .links a {
+        text-decoration: none;
+        color: aqua;
+    }
 }
