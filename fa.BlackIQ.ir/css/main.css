@@ -3,82 +3,51 @@
     src: url("../font/vazir/Vazir.ttf");
 }
 
-#all {
-    direction: rtl;
-}
-* {
-    text-align: right;
-    font-family: vazir, serif;
-}
-
-.light .main {
-    padding: 10%;
-    color: black;
-    background: white;
-}
-.light .left {
-    text-align: left;
-}
-.light .purple {
-    color: purple;
-}
-.light .blue {
-    color: blue;
-    text-decoration: none;
-}
-.light .red {
-    color: red;
-    text-decoration: none;
-}
-.light .purplehr {
-    background: purple;
-    border: 1px solid purple;
-}
-.light .redhr {
-    background: red;
-    border: 1px solid red;
-}
-.light .toggle {
-    background: none;
-    border: solid 1px black;
-    padding: 10px;
-    border-radius: 10px;
-    color: black;
-}
-
-
-.dark .main {
-    font-family: 'Lalezar', sans-serif;
-    background: #313131;
-    padding: 10%;
-    color: white;
-}
-.dark .left {
-    text-align: left;
-}
-.dark .purple {
+.all .title {
     color: #bb86fc;
+    font-weight: bold;
 }
-.dark .blue {
-    color: #03dac5;
-    text-decoration: none;
+
+@media (prefers-color-scheme: light) {
+    .all {
+        text-align: right;
+        direction: rtl;
+        background: #f1f1f1;
+        color: black;
+        font-size: 90%;
+    }
+    .all .main {
+        font-family: vazir, sans-serif;
+        padding: 10%;
+    }
+    .all .link {
+        text-decoration: none;
+        color: navy;
+    }
+    .all .links a {
+        text-decoration: none;
+        color: navy;
+    }
 }
-.dark .red {
-    color: yellow;
-    text-decoration: yellow;
-}
-.dark .purplehr {
-    background: yellow;
-    border: 1px solid yellow;
-}
-.dark .redhr {
-    background: yellow;
-    border: 1px solid yellow;
-}
-.dark .toggle {
-    background: none;
-    border: solid 1px yellow;
-    padding: 10px;
-    border-radius: 10px;
-    color: yellow;
+
+@media (prefers-color-scheme: dark) {
+    .all {
+        text-align: right;
+        direction: rtl;
+        background: #313131;
+        color: white;
+        font-size: 90%;
+    }
+    .all .main {
+        font-family: vazir, sans-serif;
+        padding: 10%;
+    }
+    .all .link {
+        text-decoration: none;
+        color: aqua;
+    }
+    .all .links a {
+        text-decoration: none;
+        color: aqua;
+    }
 }
