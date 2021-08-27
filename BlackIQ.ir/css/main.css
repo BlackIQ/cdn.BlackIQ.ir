@@ -32,11 +32,13 @@ button {
     background: red;
     border: 1px solid red;
 }
-.light .toggle {
+.dark .toggle {
     background: none;
-    border: solid 1px black;
-    padding: 10px;
-    border-radius: 10px;
+    border: none;
+    color: black;
+}
+.dark .links  {
+    text-decoration: none;
     color: black;
 }
 
@@ -71,8 +73,10 @@ button {
 }
 .dark .toggle {
     background: none;
-    border: solid 1px yellow;
-    padding: 10px;
-    border-radius: 10px;
+    border: none;
     color: yellow;
+}
+.dark .links  {
+    text-decoration: none;
+    color: white;
 }
