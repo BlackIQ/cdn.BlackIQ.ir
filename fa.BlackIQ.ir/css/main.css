@@ -2,6 +2,10 @@
     font-family: vazir;
     src: url("../font/vazir/Vazir.ttf");
 }
+@font-face {
+    font-family: iransans;
+    src: url("../font/iransans/iransans.ttf");
+}
 
 .all .title {
     color: #bb86fc;
@@ -17,7 +21,7 @@
         font-size: 90%;
     }
     .all .main {
-        font-family: vazir, sans-serif;
+        font-family: iransans, sans-serif;
         padding: 10%;
     }
     .all .link {
@@ -39,7 +43,7 @@
         font-size: 90%;
     }
     .all .main {
-        font-family: vazir, sans-serif;
+        font-family: iransans, sans-serif;
         padding: 10%;
     }
     .all .link {
