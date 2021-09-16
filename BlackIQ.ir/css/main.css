@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+.all {
+    user-select: none;
+}
+
 .all .title {
     color: #bb86fc;
     font-weight: bold;
