@@ -5,6 +5,14 @@
     font-weight: bold;
 }
 
+.info {
+    top: 25%;
+    left: 25%;
+    bottom: 25%;
+    right: 25%;
+    position: fixed;
+}
+
 @media (prefers-color-scheme: light) {
     .all {
         background: #f1f1f1;
