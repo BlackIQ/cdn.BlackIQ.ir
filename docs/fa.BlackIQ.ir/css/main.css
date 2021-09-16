@@ -11,13 +11,16 @@
     user-select: none;
 }
 
+* {
+    font-family: iransans, sans-serif;
+}
+
 .all .title {
     color: #bb86fc;
     font-weight: bold;
 }
 
 .info {
-    font-family: iransans, sans-serif;
     top: 25%;
     left: 25%;
     bottom: 25%;
