@@ -7,6 +7,10 @@
     src: url("https://cdn.neotrinost.ir/fa.BlackIQ.ir/font/iransans/iransans.ttf");
 }
 
+.all {
+    user-select: none;
+}
+
 .all .title {
     color: #bb86fc;
     font-weight: bold;
