@@ -13,6 +13,7 @@
 }
 
 .info {
+    font-family: iransans, sans-serif;
     top: 25%;
     left: 25%;
     bottom: 25%;
@@ -29,7 +30,6 @@
         font-size: 90%;
     }
     .all .main {
-        font-family: iransans, sans-serif;
         padding: 10%;
     }
     .all .link {
@@ -51,7 +51,6 @@
         font-size: 90%;
     }
     .all .main {
-        font-family: iransans, sans-serif;
         padding: 10%;
     }
     .all .link {
